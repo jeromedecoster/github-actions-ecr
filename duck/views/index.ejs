@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Duck</h1>
+    <img src="img/duck-1.jpg" alt="A Duck">
+
+    <% if (locals.settings.env == 'development') { %>
+    <footer><u>development</u> version: <%- locals.version %> - IP address: <%- locals.address %></footer>
+    <% } else { %>
+    <footer>version: <%- locals.version %> - IP address: <%- locals.address %></footer>
+    <% } %>
+</body>
+
+</html>
