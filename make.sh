@@ -5,7 +5,7 @@
 #
 
 # AWS variables
-AWS_PROFILE=marine
+AWS_PROFILE=default
 AWS_REGION=eu-west-3
 # project name
 PROJECT_NAME=github-actions-ecr
